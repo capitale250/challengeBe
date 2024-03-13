@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --require babel-core/register --require babel-polyfill ./server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.9",
+    "http": "^0.0.1-security",
+    "mailer": "^0.6.7",
+    "node": "^21.7.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "nodemailer": "^6.9.7"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "nodemon": "^3.0.1"
+  }
+}
